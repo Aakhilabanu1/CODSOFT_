@@ -1,0 +1,136 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightpink}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 100px;
+ }
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    font-size: 20px;
+    display: inline-block;
+    color: rgb(44, 1, 44);
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+}
+header a:hover,
+header a.active {
+    color: rgb(126, 24, 126);
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25%;
+}
+.content .textbox
+{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h1
+{
+    color: rgb(170, 22, 133);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+.content .textbox h2 span
+{
+    color: rgb(44, 1, 44);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textbox p h3
+{
+    color: black;
+    text-decoration: wavy;
+    text-align: center;
+}
+.content .textbox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: white;
+    color: rgb(44, 1, 44);
+    font-size: 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgBox img
+{
+    max-width: 340px;
+}
+.social
+{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.social a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border:  2px solid rgb(126, 24, 126);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(126, 24, 126);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
